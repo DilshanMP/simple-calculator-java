@@ -6,3 +6,6 @@ First project and UI design create by Scene Builder java 8.
 <br>
 In order to improve my java language. i will try to create advanced using javafx & fxml method.<br/>
  Using IntelliJ IDEA Ultimate provides + Scene Builder (fxml)
+<hr>
+# Add .gitignore
+java
