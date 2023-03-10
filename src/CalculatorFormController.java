@@ -1,10 +1,10 @@
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;
 
-
 enum EXP{
     SUM,SUB,DIV,MUL
 }
+
 public class CalculatorFormController {
     public TextField txtNumberOne;
     public TextField txtNumberTwo;
@@ -28,6 +28,7 @@ public class CalculatorFormController {
     private double execute(EXP exp){
         Double num1 =Double.parseDouble(txtNumberOne.getText());
         Double num2 =Double.parseDouble(txtNumberTwo.getText());
+
         switch (exp){
             case SUB:return num1+num2;
             case SUM:return num1-num2;
